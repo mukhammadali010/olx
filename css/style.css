@@ -1,0 +1,77 @@
+body
+{
+	background:url("../img/brownfolio.jpg") no-repeat left top;
+	background-size: 100%;
+	color:#CFCDB4;
+}
+.set h2{
+	font-family: Myriad Pro;
+	font-size: 30px;
+	color: #cac8ae;
+}
+.set p{
+	font-family: georgia;
+	font-size: 18px;
+	color: #af9671;
+}
+.menu li a{
+	font-family: arial;
+	font-size: 18px;
+	color: #af9671;
+}
+.first h3{
+	font-family: arial;
+	font-size: 18pt;
+	color: #956629;
+}
+.first p{
+	font-family: georgia;
+	font-size: 14px;
+	color: #cfcdb4;
+}
+.first font{
+	font-family: georgia;
+	font-size: 14px;
+	color: #956629;
+}
+.port p{
+    font-family: georgia;
+	font-size: 14px;
+	color: #cfcdb4;
+}
+.port h5{
+	font-family: georgia;
+	font-size: 14px;
+	color: #af9671;
+}
+.secont h3{
+	font-family: arial;
+	font-size: 18pt;
+	color: #956629;
+}
+.secont h4{
+	font-family: georgia;
+	font-size: 14pt;
+	color: #8a7557;
+
+}
+.secont p{
+	font-family: georgia;
+	font-size: 14px;
+	color: #cfcdb4;
+}
+.secont font{
+	font-family: georgia;
+	font-size: 14px;
+	color: #ce8c37;
+}
+.area p{
+	font-family: georgia;
+	font-size: 14pt;
+	color: #a5702c;
+}
+.footer p{
+	font-family: georgia;
+	font-size: 14pt;
+	color: #cfcdb4;
+}

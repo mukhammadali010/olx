@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OLX e`lonlar taxtasi</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="sass/main.css">
+    <script type="text/javascript" >
+        function l(){
+            var r= document.getElementById('lu');
+            r.src="img/lupakok.png";
+            r.style.opacity="1";
+           
+            
+        }
+        function l2(){
+            var r = document.getElementById('lu');
+            r.src="img/lupa.png";
+            
+        }
+        function f1(){
+            var hammasi = document.getElementById('ha1');
+            hammasi.style.borderBottomColor = "#002F34";
+            document.getElementById('ha2').style.borderBottomColor = "#f1f5ff00";
+            document.getElementById('ha3').style.borderBottomColor = "#f1f5ff00";
+        }
+        function f2(){
+            var hammasi = document.getElementById('ha2');
+            hammasi.style.borderBottomColor = "#002F34";
+            document.getElementById('ha1').style.borderBottomColor = "#f1f5ff00";
+            document.getElementById('ha3').style.borderBottomColor = "#f1f5ff00";
+        }
+        function f3(){
+            var hammasi = document.getElementById('ha3');
+            hammasi.style.borderBottomColor = "#002F34";
+            document.getElementById('ha1').style.borderBottomColor = "#f1f5ff00";
+            document.getElementById('ha2').style.borderBottomColor = "#f1f5ff00";
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-static-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5"><h1><a href="../index.html"><img src="img/olx.png" alt=""></a></h1></div>
+                    <div class="col-lg-7">
+                        <ul class="menu">
+                            <li><div class="um"><div class="bir"><a href="#" class="rus">O`z | </a></div><div class="ikki"><a href="#" class="rus"> РУ</a></div></div></li>
+                            <li><a href="../xabaryangi/index.html" class="til"><div class="um"><div class="bir"><img src="img/xabar.png"  width="20px" alt=""></div> <div class="ikki">Xabarlar</div></div></a></li>
+                            <li><a href="index.html"  class="til"><img src="img/yurak.png" width="20px" alt=""></a></li>
+                            <li><a href="../xabaryangi/index.html"  class="til"><div class="um"><div class="bir"><img src="img/odam.png" width="20px" alt=""></div> <div class="ikki">Mening profilim</div></div></a></li>
+                            <li><a href="../xabaryangi/index.html"  class="til elon">E`lon qilish</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="inputlar">
+        <div class="container">
+            <div class="row">
+                <form class="form-inline">
+                    <div class="form-group">
+                      <input type="text" class="form-control" id="exampleInputName2" placeholder="Qidiruv...">
+                    </div>
+                    <div class="form-group lll">
+                        <i class="glyphicon glyphicon-map-marker loc" ></i>
+                      <input type="text" class="form-control" id="exampleInputEmail2" placeholder="Butun Uzbekistan">
+                    </div>
+                    <button type="submit" class="btn btn-default" id="jonat">Topish <i class="glyphicon glyphicon-search"></i></button>
+                  </form>
+            </div>
+        </div>
+    </section>
+    <section class="ptichka">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 ">
+                    <div class="checkbox">
+                        <label>
+                          <input type="checkbox"> E`lonlar matnida qidirish
+                        </label>
+                      </div>
+                </div>
+                <div class="col-lg-2 ">
+                    <div class="checkbox">
+                        <label>
+                          <input type="checkbox"> Faqat surat bilan
+                        </label>
+                      </div>
+                </div>
+                <div class="col-lg-3 col-lg-offset-5 gly">
+                    <a href="#"><i class="glyphicon glyphicon-heart"></i>    Qidiruvga amal qiling</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="filtr">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2>Filtrlar</h2>
+                    <div class="col-lg-5">
+                        <h6>Rukn</h6>
+                        <div class="btn-group">
+                                <select name="" id="" class="btn btn-default dropdown-toggle ac1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <option value="rukn1"> Ruknni tanlang <span class="caret"></span></option>
+                                    <option value="rukn1">Rukn2</option>
+                                    <option value="rukn1">Rukn3</option>
+                                    <option value="rukn1">Rukn4</option>
+                                    <option value="rukn1">Rukn</option>
+                                </select>
+                          </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <h6>Narx</h6>
+                        <form class="form-inline">
+                            <div class="form-group">
+                              <input type="number" class="form-control dan" placeholder="dan">
+                            </div>
+                            <div class="form-group">
+                              <input type="number" class="form-control dan" placeholder="...">
+                            </div>
+                          </form>
+                    </div>
+                </div>
+                </div>
+        </div>
+    </section>
+    <section class="hamma">
+        <div class="container">
+            <div class="row">
+                <div class="ham1" id="ha1" onclick="f1()"><a href="#">Hammasi</a></div>
+                <div class="ham1" id="ha2" onclick="f2()"><a href="#">Jismoniy shaxs</a></div>
+                <div class="ham1" id="ha3" onclick="f3()"><a href="#">Biznes</a></div>
+            </div>
+        </div>
+        <div class="chiz"></div>
+    </section>
+    <section class="kochmas">
+        <div class="container">
+            <div class="row">
+                <div class="sar">
+                    <div class="col-lg-2"><h6>Ko`chmas mulk savdosi</h6></div>
+                <div class="col-lg-4 col-lg-offset-6">Saralash:
+                    <div class="btn-group">
+                        <select name="" id="" class="btn btn-default dropdown-toggle ac1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <option value="rukn1"> Ruknni tanlang <span class="caret"></span></option>
+                            <option value="rukn1">Rukn2</option>
+                            <option value="rukn1">Rukn3</option>
+                            <option value="rukn1">Rukn4</option>
+                            <option value="rukn1">Rukn</option>
+                        </select>
+                  </div>
+                    <a href="#"><i class="glyphicon glyphicon-align-justify"></i></a>
+                    <a href="#"><i class="glyphicon glyphicon-equalizer"></i></a>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bolalar">
+        <div class="container">
+            <div class="row">
+                <div class="bola">
+                    <a href="#">Bolalar dunyosi <span>48 979</span></a>
+                    <a href="#">Ko`chmas mulk <span>112 979</span></a>
+                    <a href="#">Transport <span>54 979</span></a>
+                    <a href="#">Uy va Bog` <span>111 979</span></a>
+                    <a href="#">Elektr jihozlari <span>87 979</span></a>
+                    <a href="#">Xizmatlar <span>221 979</span></a>
+                    <a href="#">Moda va stil <span>48 322</span></a>
+                    <a href="#">Xobbi, dam olish sport <span>122 979</span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="topelonlar">
+        <div class="container">
+            <div class="row">
+                <a href="#">Hammasini ko`rsatish <i class="glyphicon glyphicon-menu-down"></i></a>
+                <div class="reklama">
+                    <h1>Reklama oт Google</h1>
+                </div>
+                <div class="rec">
+                    <h3>Top E`lonlar</h3>
+                    <a href="#">Hammasini ko`rish</a>
+                </div>
+                <div class="row">
+                    <div class="toop">
+                        <div class="col-lg-3">
+                            <a href="#" class="thumbnail">
+                                <img src="../../file/263837457_157468.jpg" alt="...">
+                              </a>
+                        </div>
+                        <div class="col-lg-4">
+                            <a href="#">Джойстик запчасти Playstation 3-4. Новые</a>
+                            <p>Toshkent, Mirzo-Ulug`bek tumani -18 mart</p>
+                        </div>
+                        <div class="col-lg-2 col-lg-offset-3">
+                            <a href="#" style="font-weight: 600;">9 900 so`m</a><br>
+                            <a href="#"><i class="glyphicon glyphicon-heart"></i></a>   
+                        </div>
+                    </div>
+                    <div class="toop">
+                        <div class="col-lg-3">
+                            <a href="#" class="thumbnail">
+                                <img src="../../file/263837457_157468.jpg" alt="...">
+                              </a>
+                        </div>
+                        <div class="col-lg-4">
+                            <a href="#">Джойстик запчасти Playstation 3-4. Новые</a>
+                            <p>Toshkent, Mirzo-Ulug`bek tumani -18 mart</p>
+                        </div>
+                        <div class="col-lg-2 col-lg-offset-3">
+                            <a href="#" style="font-weight: 600;">9 900 so`m</a><br>
+                            <a href="#"><i class="glyphicon glyphicon-heart"></i></a>   
+                        </div>
+                    </div>
+                    <div class="toop">
+                        <div class="col-lg-3">
+                            <a href="#" class="thumbnail">
+                                <img src="../../file/263837457_157468.jpg" alt="...">
+                              </a>
+                        </div>
+                        <div class="col-lg-4">
+                            <a href="#">Джойстик запчасти Playstation 3-4. Новые</a>
+                            <p>Toshkent, Mirzo-Ulug`bek tumani -18 mart</p>
+                        </div>
+                        <div class="col-lg-2 col-lg-offset-3">
+                            <a href="#" style="font-weight: 600;">9 900 so`m</a><br>
+                            <a href="#"><i class="glyphicon glyphicon-heart"></i></a>   
+                        </div>
+                    </div>
+                    <div class="toop">
+                        <div class="col-lg-3">
+                            <a href="#" class="thumbnail">
+                                <img src="../../file/263837457_157468.jpg" alt="...">
+                              </a>
+                        </div>
+                        <div class="col-lg-4">
+                            <a href="#">Джойстик запчасти Playstation 3-4. Новые</a>
+                            <p>Toshkent, Mirzo-Ulug`bek tumani -18 mart</p>
+                        </div>
+                        <div class="col-lg-2 col-lg-offset-3">
+                            <a href="#" style="font-weight: 600;">9 900 so`m</a><br>
+                            <a href="#"><i class="glyphicon glyphicon-heart"></i></a>   
+                        </div>
+                    </div>
+                    <div class="toop">
+                        <div class="col-lg-3">
+                            <a href="#" class="thumbnail">
+                                <img src="../../file/263837457_157468.jpg" alt="...">
+                              </a>
+                        </div>
+                        <div class="col-lg-4">
+                            <a href="#">Джойстик запчасти Playstation 3-4. Новые</a>
+                            <p>Toshkent, Mirzo-Ulug`bek tumani -18 mart</p>
+                        </div>
+                        <div class="col-lg-2 col-lg-offset-3">
+                            <a href="#" style="font-weight: 600;">9 900 so`m</a><br>
+                            <a href="#"><i class="glyphicon glyphicon-heart"></i></a>   
+                        </div>
+                    </div>
+                    <div class="toop">
+                        <div class="col-lg-3">
+                            <a href="#" class="thumbnail">
+                                <img src="../../file/263837457_157468.jpg" alt="...">
+                              </a>
+                        </div>
+                        <div class="col-lg-4">
+                            <a href="#">Джойстик запчасти Playstation 3-4. Новые</a>
+                            <p>Toshkent, Mirzo-Ulug`bek tumani -18 mart</p>
+                        </div>
+                        <div class="col-lg-2 col-lg-offset-3">
+                            <a href="#" style="font-weight: 600;">9 900 so`m</a><br>
+                            <a href="#"><i class="glyphicon glyphicon-heart"></i></a>   
+                        </div>
+                    </div>
+                    <div class="toop">
+                        <div class="col-lg-3">
+                            <a href="#" class="thumbnail">
+                                <img src="../../file/263837457_157468.jpg" alt="...">
+                              </a>
+                        </div>
+                        <div class="col-lg-4">
+                            <a href="#">Джойстик запчасти Playstation 3-4. Новые</a>
+                            <p>Toshkent, Mirzo-Ulug`bek tumani -18 mart</p>
+                        </div>
+                        <div class="col-lg-2 col-lg-offset-3">
+                            <a href="#" style="font-weight: 600;">9 900 so`m</a><br>
+                            <a href="#"><i class="glyphicon glyphicon-heart"></i></a>   
+                        </div>
+                    </div>
+                    <div class="toop">
+                        <div class="col-lg-3">
+                            <a href="#" class="thumbnail">
+                                <img src="../../file/263837457_157468.jpg" alt="...">
+                              </a>
+                        </div>
+                        <div class="col-lg-4">
+                            <a href="#">Джойстик запчасти Playstation 3-4. Новые</a>
+                            <p>Toshkent, Mirzo-Ulug`bek tumani -18 mart</p>
+                        </div>
+                        <div class="col-lg-2 col-lg-offset-3">
+                            <a href="#" style="font-weight: 600;">9 900 so`m</a><br>
+                            <a href="#"><i class="glyphicon glyphicon-heart"></i></a>   
+                        </div>
+                    </div>
+                    <div class="toop">
+                        <div class="col-lg-3">
+                            <a href="#" class="thumbnail">
+                                <img src="../../file/263837457_157468.jpg" alt="...">
+                              </a>
+                        </div>
+                        <div class="col-lg-4">
+                            <a href="#">Джойстик запчасти Playstation 3-4. Новые</a>
+                            <p>Toshkent, Mirzo-Ulug`bek tumani -18 mart</p>
+                        </div>
+                        <div class="col-lg-2 col-lg-offset-3">
+                            <a href="#" style="font-weight: 600;">9 900 so`m</a><br>
+                            <a href="#"><i class="glyphicon glyphicon-heart"></i></a>   
+                        </div>
+                    </div>
+                    <nav>
+                        <ul class="pager liii">
+                          <li class="previous"><a href="#"><i class="glyphicon glyphicon-menu-left"></i></a></li>
+                          <li><a href="#">1</a></li>
+                          <li><a href="#">2</a></li>
+                          <li><a href="#">3</a></li>
+                          <li><a href="#">4</a></li>
+                          <li><a href="#">5</a></li>
+                          <li><a href="#">6</a></li>
+                          <li><a href="#">7</a></li>
+                          <li><a href="#">8</a></li>
+                          <li><a href="#">9</a></li>
+                          <li><a href="#">10</a></li>
+                          
+                          <li class="next"><a href="#"><i class="glyphicon glyphicon-menu-right"></i></a></li>
+                        </ul>
+                      </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="buqidiruv">
+        <div class="container">
+            <div class="row">
+                <div class="push">
+                    <img src="../yurak/img/rasmqoy.png" width="60px" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

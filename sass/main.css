@@ -1,0 +1,642 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #F2F4F5 !important;
+}
+
+header {
+  background-color: #002F34;
+}
+
+header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .container .row .col-lg-5 h1 img {
+  width: 70px;
+}
+
+header .container .row .col-lg-7 ul.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 25px;
+  list-style: none;
+}
+
+header .container .row .col-lg-7 ul.menu a {
+  white-space: nowrap;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+header .container .row .col-lg-7 ul.menu:first-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .container .row .col-lg-7 ul.menu .til {
+  color: white;
+  text-decoration: none;
+}
+
+header .container .row .col-lg-7 ul.menu .rus {
+  color: white;
+  text-decoration: none;
+}
+
+header .container .row .col-lg-7 ul.menu .rus:hover {
+  text-decoration: underline;
+}
+
+header .container .row .col-lg-7 ul.menu .rus:active {
+  color: #7F9799;
+}
+
+header .container .row .col-lg-7 ul.menu .elon {
+  background-color: white;
+  padding: 20px;
+  color: #002F34;
+  border-radius: 5px;
+}
+
+header .container .row .col-lg-7 ul.menu .elon:hover {
+  background-color: #002F34;
+  color: white;
+}
+
+.um {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0px 30px;
+}
+
+.um:hover {
+  color: #7F9799;
+}
+
+.um .bir {
+  margin: 0 20px;
+}
+
+section #pink {
+  background-color: #FFD6C9;
+  width: 99%;
+  border-radius: 5px;
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section #pink .pushti .batafsil {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section #pink .pushti .x {
+  font-size: 20px;
+  font-weight: 100;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section #pink .pushti a {
+  white-space: nowrap;
+  padding: 30px;
+  font-weight: bold;
+  color: black;
+  -webkit-text-decoration: 5px underline;
+          text-decoration: 5px underline;
+}
+
+section #pink .push {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+}
+
+section #pink .push p {
+  margin: 0% auto;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#forma {
+  margin: 40px 120px;
+}
+
+#forma #lupa {
+  width: 590px;
+  height: 80px;
+  border: none;
+  padding-left: 70px;
+  font-size: 20px;
+}
+
+#forma #butun {
+  width: 290px;
+  height: 80px;
+  border: none;
+  padding-left: 70px;
+  font-size: 20px;
+}
+
+#forma #qidiruv {
+  width: 200px;
+  height: 80px;
+  border: none;
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+#forma #qidiruv:hover {
+  background-color: #002F34;
+  color: white;
+}
+
+.loca {
+  position: relative;
+  top: 100px;
+  left: 670px;
+}
+
+.lupa1 {
+  position: relative;
+  top: 100px;
+  left: 150px;
+}
+
+.lupa2 {
+  position: relative;
+  top: 100px;
+  left: 1140px;
+}
+
+section.toifalar {
+  background-color: white;
+}
+
+section.toifalar .container .asosiy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section.toifalar .container .asosiy p {
+  margin-left: 40px;
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section.toifalar .container .asos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section.toifalar .container .asos p {
+  margin-left: 40px;
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section.toifalar .container .bosh {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section.toifalar .container .aravacha {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: #FFCE32;
+  margin-left: 40px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+}
+
+section.toifalar .container .aravacha1 {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: #3A77FF;
+  margin-left: 40px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+}
+
+section.toifalar .container .aravacha2 {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: #23E6DC;
+  margin-left: 40px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+}
+
+section.toifalar .container .aravacha3 {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: #FD5832;
+  margin-left: 40px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+}
+
+section.toifalar .container .aravacha4 {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: #FFF5DA;
+  margin-left: 40px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+}
+
+section.toifalar .container .aravacha5 {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: #CEDDFE;
+  margin-left: 40px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+}
+
+section.toifalar .container .aravacha6 {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: #C3F4F1;
+  margin-left: 40px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+}
+
+section.toifalar .container .aravacha7 {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: #C3F4F1;
+  margin-left: 40px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+}
+
+section.toifalar .container .aravacha8 {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: #DDB52E;
+  margin-left: 40px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+}
+
+section.toifalar .container .aravacha9 {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: #D0FF00;
+  margin-left: 40px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+}
+
+section.toifalar .container .aravacha10 {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: #3AE2CE;
+  margin-left: 40px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+}
+
+section.toifalar .container .aravacha11 {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: #B34EE9;
+  margin-left: 40px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+}
+
+section.premium .container .row h1.prem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-transform: uppercase;
+}
+
+section.premium .qator1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 40px;
+}
+
+section.premium .qator1 .ustun1 #yura {
+  position: relative;
+  top: -10px;
+  left: 160px;
+}
+
+section.premium .qator1 .ustun2 #yura {
+  position: relative;
+  top: -30px;
+  left: 160px;
+}
+
+section.premium .qator1 .ustun3 #yura {
+  position: relative;
+  top: -10px;
+  left: 160px;
+}
+
+section.premium .qator1 .ustun4 #yura {
+  position: relative;
+  top: -10px;
+  left: 160px;
+}
+
+section.premium .qator1 .ustun1, section.premium .qator1 .ustun2, section.premium .qator1 .ustun3, section.premium .qator1 .ustun4 {
+  background-color: #fff;
+  padding: 15px;
+  margin-left: 15px;
+  border-radius: 2px;
+  height: 300px;
+}
+
+section.premium .qator1 .ustun1 a.izo, section.premium .qator1 .ustun2 a.izo, section.premium .qator1 .ustun3 a.izo, section.premium .qator1 .ustun4 a.izo {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  white-space: pre;
+  font-size: 17px;
+  text-decoration: none;
+  color: black;
+}
+
+section.premium .qator1 .ustun1 a.izo:hover, section.premium .qator1 .ustun2 a.izo:hover, section.premium .qator1 .ustun3 a.izo:hover, section.premium .qator1 .ustun4 a.izo:hover {
+  background-color: #002F34;
+  color: #fff;
+}
+
+section.premium .qator1 .ustun1 p, section.premium .qator1 .ustun2 p, section.premium .qator1 .ustun3 p, section.premium .qator1 .ustun4 p {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  white-space: pre;
+}
+
+section.footer {
+  background-color: #002F34;
+}
+
+section.footer .container {
+  margin-top: 100px;
+}
+
+section.footer .container .row {
+  padding: 10px;
+}
+
+section.footer .container .row img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 130px;
+}
+
+section.footer .container .row h4 {
+  white-space: nowrap;
+  color: #fff;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+section.footer .container .row .batafsil {
+  width: 200px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-left: 30px;
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+section.footer .container .row .batafsil:hover {
+  background-color: #002F34;
+  color: #fff;
+}
+
+section.footer1 {
+  background-color: #CBF7EE;
+  height: 400px;
+}
+
+section.footer1 .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section.footer1 .container .row img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 90px;
+  margin-left: 500px;
+}
+
+section.footer1 .container .row p {
+  margin-top: 40px;
+  line-height: 30px;
+}
+
+section.footer2 {
+  background-color: #F2F4F5;
+  height: 400px;
+}
+
+section.footer2 .container {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+section.footer2 .container .row img {
+  margin-top: 40px;
+}
+
+section.footer2 .container .row span {
+  font-weight: bold;
+}
+
+.hr {
+  background-color: #002F34;
+  width: 100%;
+  padding: 1px;
+}
+
+section.footer3 .container {
+  margin-top: 60px;
+}
+
+section.footer3 .container .row .col-lg-3 a {
+  display: block;
+  color: #002F34;
+  text-decoration: none;
+  font-weight: bold;
+  line-height: 40px;
+  font-size: 18px;
+}
+
+section.footer3 .container .row input {
+  background-color: #fff;
+  width: 190px;
+  padding: 15px;
+  border-radius: 5px;
+  border: none;
+}
+/*# sourceMappingURL=main.css.map */

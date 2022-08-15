@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #F2F4F5 !important;
+}
+
+header {
+  background-color: #002F34;
+  height: 80px;
+}
+
+header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .container .row .col-lg-5 h1 img {
+  width: 70px;
+}
+
+header .container .row .col-lg-7 ul.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 25px;
+  list-style: none;
+}
+
+header .container .row .col-lg-7 ul.menu a {
+  white-space: nowrap;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+header .container .row .col-lg-7 ul.menu:first-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .container .row .col-lg-7 ul.menu .til {
+  color: white;
+  text-decoration: none;
+}
+
+header .container .row .col-lg-7 ul.menu .rus {
+  color: white;
+  text-decoration: none;
+}
+
+header .container .row .col-lg-7 ul.menu .rus:hover {
+  text-decoration: underline;
+}
+
+header .container .row .col-lg-7 ul.menu .rus:active {
+  color: #7F9799;
+}
+
+header .container .row .col-lg-7 ul.menu .elon {
+  background-color: white;
+  padding: 20px;
+  color: #002F34;
+  border-radius: 5px;
+}
+
+header .container .row .col-lg-7 ul.menu .elon:hover {
+  background-color: #002F34;
+  color: white;
+}
+
+.um {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0px 30px;
+}
+
+.um:hover {
+  color: #7F9799;
+}
+
+.um .bir {
+  margin: 0 20px;
+}
+
+section.sara {
+  background-color: #fff;
+  margin: 0 auto;
+}
+
+section.sara .container .row .hre {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 30px;
+}
+
+section.sara .container .row .hre a {
+  margin-left: 20px;
+  color: #002F34;
+  text-decoration: none;
+}
+
+section.sara .container .row .hre a:hover {
+  background-color: #002F34;
+  color: #fff;
+  font-weight: 500;
+}
+
+section.rasmqoyish {
+  height: 800px;
+}
+
+section.rasmqoyish .container .row {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section.rasmqoyish .container .row .rasti {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 200px;
+  padding: 30px;
+}
+
+section.rasmqoyish .container .row h3 {
+  margin-left: 400px;
+}
+
+section.rasmqoyish .container .row p {
+  display: block;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  white-space: pre;
+  margin-left: 200px;
+  color: gray;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.hr {
+  background-color: #002F34;
+  width: 100%;
+  padding: 1px;
+}
+
+section.footer3 .container {
+  margin-top: 60px;
+}
+
+section.footer3 .container .row .col-lg-3 a {
+  display: block;
+  color: #002F34;
+  text-decoration: none;
+  font-weight: bold;
+  line-height: 40px;
+  font-size: 18px;
+}
+
+section.footer3 .container .row input {
+  background-color: #fff;
+  width: 190px;
+  padding: 15px;
+  border-radius: 5px;
+  border: none;
+}
+/*# sourceMappingURL=main.css.map */

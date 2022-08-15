@@ -1,0 +1,342 @@
+body {
+  background-color: #F2F4F5 !important;
+}
+
+header {
+  background-color: #002F34;
+}
+
+header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .container .row .col-lg-5 h1 img {
+  width: 70px;
+}
+
+header .container .row .col-lg-7 ul.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 25px;
+  list-style: none;
+}
+
+header .container .row .col-lg-7 ul.menu a {
+  white-space: nowrap;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+header .container .row .col-lg-7 ul.menu:first-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .container .row .col-lg-7 ul.menu .til {
+  color: white;
+  text-decoration: none;
+}
+
+header .container .row .col-lg-7 ul.menu .rus {
+  color: white;
+  text-decoration: none;
+}
+
+header .container .row .col-lg-7 ul.menu .rus:hover {
+  text-decoration: underline;
+}
+
+header .container .row .col-lg-7 ul.menu .rus:active {
+  color: #7F9799;
+}
+
+header .container .row .col-lg-7 ul.menu .elon {
+  background-color: white;
+  padding: 20px;
+  color: #002F34;
+  border-radius: 5px;
+}
+
+header .container .row .col-lg-7 ul.menu .elon:hover {
+  background-color: #002F34;
+  color: white;
+}
+
+.um {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0px 30px;
+}
+
+.um:hover {
+  color: #7F9799;
+}
+
+.um .bir {
+  margin: 0 20px;
+}
+
+section.inputlar .container .row form {
+  padding: 20px;
+}
+
+section.inputlar .container .row form .lll {
+  position: relative;
+}
+
+section.inputlar .container .row form .loc {
+  position: absolute;
+  font-size: 20px;
+  top: 20px;
+  left: 10px;
+}
+
+section.inputlar .container .row form #exampleInputName2 {
+  position: relative;
+  border: none;
+  padding: 30px;
+  width: 700px;
+}
+
+section.inputlar .container .row form #exampleInputEmail2 {
+  border: none;
+  padding: 30px;
+  width: 290px;
+}
+
+section.inputlar .container .row form #jonat {
+  border: none;
+  padding: 16px;
+  width: 130px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+section.inputlar .container .row form #jonat:hover {
+  background-color: #002F34;
+  color: white;
+}
+
+section.inputlar .container .row form #jonat i {
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+section.ptichka .container .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section.ptichka .container .row .col-lg-2 {
+  white-space: nowrap;
+  color: gray;
+}
+
+section.ptichka .container .row a {
+  border: 2px solid #002F34;
+  border-radius: 3px;
+  color: #002F34;
+  padding: 10px;
+  margin-left: 60px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+section.ptichka .container .row a:hover {
+  -webkit-animation: anim 0.5s forwards;
+          animation: anim 0.5s forwards;
+  padding: 10px;
+}
+
+@-webkit-keyframes anim {
+  from {
+    border: 2px solid #002F34;
+  }
+  to {
+    border: 6px solid #002F34;
+  }
+}
+
+@keyframes anim {
+  from {
+    border: 2px solid #002F34;
+  }
+  to {
+    border: 6px solid #002F34;
+  }
+}
+
+section.filtr {
+  color: #002F34;
+}
+
+section.filtr .container .row .ac1 {
+  width: 200px;
+  color: #002F34;
+  border: none;
+  background-color: white;
+}
+
+section.filtr .container .row .dan {
+  width: 90px;
+}
+
+section.hamma .container .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section.hamma .container .row .ham1 {
+  border-bottom: 2px solid #002F34;
+  font-size: 14px;
+  padding: 30px;
+  border-bottom-color: #f1f5ff00;
+}
+
+section.hamma .container .row .ham1 a {
+  color: gray;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section.hamma .container .row .ham1 a:hover {
+  color: #002F34;
+}
+
+section.hamma .chiz {
+  background-color: gray;
+  padding: 1px;
+  width: 85%;
+  margin-left: 93px;
+}
+
+section.kochmas .container .row .sar {
+  padding: 10px;
+}
+
+section.kochmas .container .row .sar a {
+  padding-left: 10px;
+  font-size: 16px;
+}
+
+section.bolalar {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+section.bolalar .container .row .bola a {
+  color: #002F34;
+  text-decoration: none;
+  padding-bottom: 40px;
+  padding: 18px;
+}
+
+section.bolalar .container .row .bola a span {
+  color: gray;
+}
+
+section.topelonlar .container .row a {
+  color: #002F34;
+  text-decoration: none;
+}
+
+section.topelonlar .container .row .reklama {
+  width: 1100px;
+  height: 270px;
+  margin: 30px 20px;
+  background-color: rgba(214, 214, 214, 0.281);
+}
+
+section.topelonlar .container .row .reklama h1 {
+  text-align: center;
+  color: gray;
+}
+
+section.topelonlar .container .row h3 {
+  color: #002F34;
+  font-weight: bold;
+}
+
+section.topelonlar .container .row .rec {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 900px;
+}
+
+section.topelonlar .container .row .toop {
+  margin-top: 10px;
+  width: 1000px;
+  height: 170px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+section.topelonlar .container .row .toop .col-lg-4 a {
+  color: #002F34;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+section.topelonlar .container .row .toop .col-lg-4 p {
+  color: gray;
+  margin-top: 70px;
+}
+
+section.topelonlar .container .row .toop .col-lg-2 a {
+  margin-left: 60px;
+}
+
+section.topelonlar .container .row .toop .col-lg-2 i {
+  margin-top: 110px;
+  margin-left: 70px;
+}
+
+section.topelonlar .container .row nav .liii {
+  width: 600px;
+  background-color: #F2F4F5;
+}
+
+section.buqidiruv .container .row .push {
+  width: 1000px;
+  height: 80px;
+  background-color: #FFD6C9;
+  border-radius: 10px;
+}
+/*# sourceMappingURL=main.css.map */
